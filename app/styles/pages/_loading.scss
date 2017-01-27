@@ -15,20 +15,20 @@
   margin            : 0 auto;
   width             : 280px;
   height            : 280px;
-  border            : dotted rgba(255,255,255,.25) 3px;
+  border            : dotted rgba(255,255,255,.25) 5px; //3px;
   border-radius     : 50%;
   -webkit-animation: orbit 20s linear infinite; /* Safari 4+ */ /* Fx 5+ */ /* Opera 12+ */
   animation:         orbit 20s linear infinite; /* IE 10+, Fx 29+ */
 }
 
 .sun {
-  background : $yellowDark;
+  background : #3d6eb5; //$yellowDark;
   top        : 110px;
   left       : -25px;
 }
 
 .moon {
-  background : $midGray;
+  background : #3d6eb5; //$midGray;
   bottom     : 110px;
   right      : -25px;
 }
@@ -44,8 +44,9 @@
 
 .grass {
   content             : "";
-  background          : -webkit-linear-gradient(135deg, #a5c63b 5px, transparent 0), -webkit-linear-gradient(45deg, #a5c63b 5px, transparent 0);
-  background          : linear-gradient(-45deg, #a5c63b 5px, transparent 0), linear-gradient(45deg, #a5c63b 5px, transparent 0);
+  background-color    : #434f5d; //Added
+  //background          : -webkit-linear-gradient(135deg, #a5c63b 5px, transparent 0), -webkit-linear-gradient(45deg, #434f5d 5px, transparent 0); //#a5c63b
+  //background          : linear-gradient(-45deg, #a5c63b 5px, transparent 0), linear-gradient(45deg, #434f5d 5px, transparent 0); //#a5c63b
   background-position : left-bottom;
   background-repeat   : repeat-x;
   background-size     : 10px 10px;
@@ -64,17 +65,18 @@
   width             : 200px;
   height            : 200px;
   margin            : 40px;
-  background        : -moz-linear-gradient(top, #d3edf8 0%, #d3edf8 50%, #a5c63b 50%, #a5c63b 100%);
-  background        : -webkit-linear-gradient(top, #d3edf8 0%, #d3edf8 50%, #a5c63b 50%, #a5c63b 100%);
-  background        : linear-gradient(top, #d3edf8 0%, #d3edf8 50%, #a5c63b 50%, #a5c63b 100%);
+  background-color    : #434f5d; //Added
+  //background        : -moz-linear-gradient(top, #d3edf8 0%, #d3edf8 50%, #a5c63b 50%, #a5c63b 100%);
+  //background        : -webkit-linear-gradient(top, #d3edf8 0%, #d3edf8 50%, #a5c63b 50%, #a5c63b 100%);
+  //background        : linear-gradient(top, #d3edf8 0%, #d3edf8 50%, #a5c63b 50%, #a5c63b 100%);
   border-radius     : 50%;
  -webkit-animation: fade 30s ease-in-out infinite; /* Safari 4+ */ /* Fx 5+ */ /* Opera 12+ */
   animation:         fade 30s ease-in-out infinite; /* IE 10+, Fx 29+ */
 }
 
 .cow {
-  height: 65px;
-  margin     : 60px auto;
+  height: auto; //65px;
+  margin     : auto; //60px auto;
   position   : relative;
   z-index    : 5;
 }
