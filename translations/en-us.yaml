@@ -817,7 +817,7 @@ k8sTab:
         noData: You do not have any Namespaces yet.
 
 loginPage:
-  greeting: "Howdy!<br>Welcome to {appName}"
+  greeting: "<br>Welcome to {appName}"
   githubMessage: "{appName} uses GitHub to manage accounts and teams.  Click the button below to log in and give us read-only access to your basic GitHub account information."
 
 machinePage:
