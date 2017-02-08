@@ -50,7 +50,7 @@ HEADER {
     height: $navbar-height;
     width: 68px;
     background-image: url('images/logos/main.svg');
-    background-color: $logo-bg;
+    //background-color: $logo-bg;
     background-position: center center;
     background-repeat: no-repeat;
   }
@@ -103,7 +103,7 @@ HEADER {
     .navbar-brand {
       margin: 0!important;
       float: none;
-      background-size: auto 25px;
+      background-size: auto; //25px;
     }
 
     .navbar-toggle {

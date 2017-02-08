@@ -8,6 +8,11 @@ footer {
 
   & a {
     padding-right: 10px;
+
+    & .nw-footer-img {
+      padding-right: 10px;
+      width: auto;
+    }
   }
 
   & .btn-link {
